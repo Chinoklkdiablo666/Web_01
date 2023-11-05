@@ -27,7 +27,7 @@ header{
 header > div > h3 {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
-    padding-top: 150px;
+    padding-top: 10px;
 }
 
 
@@ -54,9 +54,15 @@ header > div > h3 {
     font-size: 30px;
 }
 
+.img-fluid{
+    padding: 60px;
+}
 
 
 
+.Slogan{
+    height: 100vh;
+}
 
 .Slogan > h1 {
     font-family: 'Playfair Display', serif;
@@ -65,4 +71,12 @@ header > div > h3 {
     font-size: 70px;
     padding-top: 10px;
     letter-spacing: -2px;
+
 }
+
+footer{
+    height: 50vh;
+    background-color: #262727;
+
+}
+
