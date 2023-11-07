@@ -3,10 +3,9 @@
 *{
     margin: 0;
     padding: 0;
-
+    color: #262727;
 
 }
-
 
 .navbar{
     background-color: #F1F1F1 !important; 
@@ -86,85 +85,55 @@
 }
 
 
+/* Acordeón*/
 
-
-
-header > div > h3 {
-    font-family: 'Inter Tight', sans-serif;
-    font-weight: bolder;
-
+.accordion-button:not(.collapsed) {
+    background-color: none !important;
+    box-shadow: none !important;
 }
 
-header > div > div > h2 {
-    font-family: 'Playfair Display', serif;
+
+.accordion-button:not(.collapsed) {
+    color: #262727;
+    background-color: #F1F1F1;
+    box-shadow: none;
 }
 
-header{
-    letter-spacing: -0.5px;
-    height: 100vh;
+.accordion-button:focus {
+    z-index: 3;
+    border-color: none !important;
+    outline: 0;
+    box-shadow: none !important;
+    color: #262727 !important;
+}
+
+.accordion-button::after{
+    color: #262727 !important;
+}
+
+.accordion-body {
     background-color: #F1F1F1;
     color: #262727;
-}
-
-header > div > h3 {
     font-family: 'Inter Tight', sans-serif;
-    font-weight: 500;
-    padding-top: 10px;
-}
-
-
-.container-fluid {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 0;
-  }
-
-
-  .box {
-    flex: 1;
-    border: 1px solid #262727;
-    margin: 0;
-    padding: 5px;
-    text-align: center;
-    max-width: 100%;
-    font-family: 'Inter Tight', sans-serif;
-
-}
-
-.box1{
-    font-size: 30px;
-    border-left: none;
-    border-right: none;
-}
-
-.box2{
-    border-left: none;
-    border-right: none;
-}
-
-.img-fluid{
-    padding: 60px;
 }
 
 
 
-.Slogan{
-    height: 200vh;
-    background-color: #F1F1F1;
-    color: #262727;
-}
 
 
 
-.Slogan > h1 {
-    font-family: 'Playfair Display', serif;
-    padding-left: 20%;
-    padding-right: 300px;
-    font-size: 70px;
-    padding-top: 10px;
-    letter-spacing: -2px;
 
+
+
+
+
+
+
+
+
+
+.icono{
+    padding: 3px;
 }
 
 footer{
@@ -180,5 +149,3 @@ footer{
     background-color: #262727;
     color: #F1F1F1;
 }
-
-
