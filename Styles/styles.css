@@ -136,6 +136,8 @@ header > div > h3 {
     font-size: 30px;
     border-left: none;
     border-right: none;
+    font-family: 'Playfair Display', serif;
+
 }
 
 .box2{
@@ -160,7 +162,7 @@ header > div > h3 {
 .Slogan > h1 {
     font-family: 'Playfair Display', serif;
     padding-left: 20%;
-    padding-right: 300px;
+    padding-right: 20%;
     font-size: 70px;
     padding-top: 10px;
     letter-spacing: -2px;
@@ -182,3 +184,192 @@ footer{
 }
 
 
+
+
+
+@media (max-width: 1350px) {
+    header{
+        font-size: 13px;
+        height: 90vh;
+    }
+
+    .box1{
+        font-size: 25px;
+    }
+
+    .Slogan{
+        height: 180vh;
+    }
+
+
+}
+
+@media (max-width: 1200px) {
+    header{
+        font-size: 11px;
+        height: 75vh;
+    }
+
+    .box1{
+        font-size: 23px;
+    }
+
+    .Slogan > h1{
+        font-size: 60px;
+
+    }
+
+    .Slogan{
+        height: 160vh;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    .Slogan{
+        height: 150vh;
+    }
+
+}
+
+@media (max-width: 1050px) {
+
+    header{
+        height: 65vh;
+    }
+
+    .Slogan{
+        height: 140vh;
+    }
+
+}
+
+@media (max-width: 1000px) {
+
+    .Slogan > h1{
+        font-size: 50px;
+
+    }
+
+    .Slogan{
+        height: 135vh;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .Slogan{
+        height: 125vh;
+    }
+
+}
+
+@media (max-width: 800px) {
+
+    .Slogan{
+        height: 120vh;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    footer{
+        font-size: 12px;
+    }
+
+    .Slogan > h1{
+        font-size: 45px;
+
+    }
+
+    header{
+        height: 55vh;
+    }
+
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    footer{
+        font-size: 12px;
+    }
+
+    .Slogan > h1{
+        font-size: 45px;
+
+    }
+
+    header{
+        height: 55vh;
+    }
+
+    .infoheader{
+        flex-direction: column;
+
+    }
+
+    .box3{
+        border-bottom: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    .box1{
+        display: none;
+ 
+    }
+
+    
+
+
+
+}
+
+
+
+@media (max-width: 600px) {
+
+    .Slogan > h1{
+        font-size: 35px;
+
+    }
+
+    .Slogan{
+        height: 90vh;
+    }
+
+
+    
+
+}
+
+@media (max-width: 500px) {
+    footer{
+        font-size: 10px;
+    }
+    
+
+    .Slogan > h1{
+        font-size: 30px;
+        padding-left: 15%;
+        padding-right: 15%;
+
+    }
+
+    header{
+        height: 50vh;
+    }
+
+    .Slogan{
+        height: 70vh;
+    }
+
+
+}

@@ -118,23 +118,11 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .icono{
     padding: 3px;
 }
+
+
 
 footer{
     background-color: #F1F1F1!important;
@@ -145,7 +133,20 @@ footer{
     font-family: 'Inter Tight', sans-serif;
 }
 
-.footer2{
-    background-color: #262727;
-    color: #F1F1F1;
+
+@media (max-width: 768px) {
+    footer{
+        font-size: 12px;
+    }
+
 }
+
+
+
+@media (max-width: 500px) {
+    footer{
+        font-size: 10px;
+    }
+
+}
+
