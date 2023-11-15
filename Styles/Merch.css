@@ -136,12 +136,13 @@ header .container .row .col-lg-6 {
     background-color: transparent; /* Change this to the color you want */
     border-color: black; /* Change this to the color you want */
     border-radius: 0,05; /* This makes the button squared */
-    color: gray;
+    color: rgb(90, 90, 90);
 }
 /* Estilos para el botón "Comprar ahora" al pasar el ratón por encima */
 .btn-primary:hover {
     background-color:brown; /* Change this to the color you want */
     color: #ffffff; /* Change this to the color you want for the text */
+    border-color: gray;
 }
 
 
