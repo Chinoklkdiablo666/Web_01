@@ -1,25 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
-
-
-
-
-body {
-    padding-bottom: 70px;
+header {
+    margin-bottom: 50px; /* Adjust this value as needed */
+    margin-top: 70px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
+footer{
+    background-color: #F1F1F1!important;
+    color: #262727 !important; 
+    border: 0.5px solid #262727 !important;
+    border-left: none !important;
+    border-right: none !important;
+    font-family: 'Inter Tight', sans-serif;
+}
 
 
 @media (max-width: 768px) {
@@ -37,3 +32,4 @@ body {
     }
 
 }
+
