@@ -141,6 +141,10 @@ footer{
 
 }
 
+.button{
+    max-width:20px;
+    max-height:20px;
+}
 
 
 @media (max-width: 500px) {
