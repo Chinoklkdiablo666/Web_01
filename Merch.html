@@ -44,7 +44,7 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-lg-6">
-                    <!-- Carousel goes here -->
+                    <!-- Galería de productos -->
                     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -53,21 +53,50 @@
                             <div class="carousel-item">
                                 <img src="Imgs\Merch\Camiseta_Merch_Frente.png" class="d-block w-50 mx-auto" alt="...">
                             </div>
-                            <!-- Add more images as needed -->
+                            <!-- Agrega más imágenes según sea necesario -->
                         </div>
                         <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
                             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
+                            <span class="visually-hidden">Anterior</span>
                         </a>
                         <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
                             <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
+                            <span class="visually-hidden">Siguiente</span>
                         </a>
                     </div>
                 </div>
                 <div class="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                    <h2>T-Shirt</h2>
-                    <button type="button" class="btn btn-primary">Buy Now</button>
+                    <!-- Título del producto -->
+                    <h2>Camiseta</h2>
+
+                    <!-- Descripción del producto -->
+                    <div class="product-description">
+                        <p>Esta es una descripción detallada del producto. Incluye sus características, especificaciones y cualquier otra información relevante.</p>
+                    </div>
+
+                    <!-- Selector de tamaño -->
+                    <div class="size-picker">
+                        <label for="size">Tamaño:</label>
+                        <select id="size" name="size">
+                            <option value="small">Pequeño</option>
+                            <option value="medium">Mediano</option>
+                            <option value="large">Grande</option>
+                        </select>
+                    </div>
+
+                    <!-- Entrada de cantidad -->
+                    <div class="quantity-input">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    </div>
+
+                    <!-- Información "En stock" -->
+                    <div class="in-stock">
+                        <p>En stock</p>
+                    </div>
+
+                    <!-- Botón "Comprar ahora" -->
+                    <button type="button" class="btn btn-primary btn-lg">Comprar ahora</button>
                 </div>
             </div>
         </div>
