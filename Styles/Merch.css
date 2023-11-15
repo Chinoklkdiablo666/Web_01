@@ -84,7 +84,6 @@
     background-color: #262727;
 }
 
-
 /* Añade un margen superior para evitar que el contenido se superponga con la barra de navegación */
 .container {
     margin-top: 100px;
@@ -108,30 +107,6 @@ h2 {
     margin-bottom: 10px; /* Espacio debajo de los selectores */
 }
 
-/* Estilos para la información "En stock" */
-.in-stock {
-    color: green; /* Color verde para indicar que el producto está en stock */
-    margin-bottom: 20px; /* Espacio debajo de la información "En stock" */
-}
-
-/* Estilos para el botón "Comprar ahora" */
-.btn-primary {
-    background-color: #007bff; /* Color de fondo azul */
-    border-color: #007bff; /* Color de borde azul */
-}
-
-/* Cambia el color de fondo y de borde del botón cuando se pasa el ratón por encima */
-.btn-primary:hover {
-    background-color: #0056b3;
-    border-color: #0056b3;
-}
-
-
-header {
-    margin-bottom: 50px; /* Adjust this value as needed */
-    margin-top: 70px;
-}
-
 
 footer{
     background-color: #F1F1F1!important;
@@ -142,6 +117,33 @@ footer{
     font-family: 'Inter Tight', sans-serif;
 }
 
+header .container .row .col-lg-6 {
+    flex: 1;
+    border: 1px solid #262727;
+    margin-bottom: 50px;
+    padding: 40px;
+    text-align: left;
+    max-width: 100%;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.in-stock p {
+    color:green
+}
+
+/* Estilos para el botón "Comprar ahora" */
+.btn-primary {
+    background-color: transparent; /* Change this to the color you want */
+    border-color: black; /* Change this to the color you want */
+    border-radius: 0,05; /* This makes the button squared */
+    color: gray;
+}
+/* Estilos para el botón "Comprar ahora" al pasar el ratón por encima */
+.btn-primary:hover {
+    background-color:brown; /* Change this to the color you want */
+    color: #ffffff; /* Change this to the color you want for the text */
+}
+
 
 @media (max-width: 768px) {
     footer{
@@ -149,8 +151,6 @@ footer{
     }
 
 }
-
-
 
 @media (max-width: 500px) {
     footer{
