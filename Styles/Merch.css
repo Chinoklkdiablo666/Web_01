@@ -144,7 +144,21 @@ header .container .row .col-lg-6 {
     color: #ffffff; /* Change this to the color you want for the text */
     border-color: gray;
 }
+.modal-content{
+    border: 1px solid #262727;
+    border-radius: 0.5rem;
+    background-color: #F1F1F1;
+    color: #262727;
+    font-family: 'Inter Tight', sans-serif;
+}
 
+.btn-primary:active, .btn-primary:focus {
+    background-color: brown !important; /* Change this to the color you want */
+    border-color: gray !important; /* Change this to the color you want */
+    color: white !important;
+    box-shadow: none !important; /* Removes the blue outline */
+}
+}
 
 @media (max-width: 768px) {
     footer{

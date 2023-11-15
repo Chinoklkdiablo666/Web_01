@@ -40,10 +40,62 @@
     <!-- MENÚ HAMBURGUESA -->
 
     <header>
-
         <div class="container mt-5">
-            <div class="row">
-                <div class="col-lg-6">
+            <div class="row flex-column-reverse flex-lg-row">
+                <div class="col-lg-6 col-md-12">
+                    <!-- Título del producto -->
+                    <h2>Camiseta</h2>
+
+                    <!-- Descripción del producto -->
+                    <div class="product-description">
+                        <p>Esta es una descripción detallada del producto. Incluye sus características, especificaciones y cualquier otra información relevante.</p>
+                    </div>
+
+                    <!-- Selector de talla -->
+                    <div class="size-picker mb-3">
+                        <label for="size">Tamaño:</label>
+                        <select id="size" name="size" class="form-select">
+                            <option value="small">Pequeño</option>
+                            <option value="medium">Mediano</option>
+                            <option value="large">Grande</option>
+                        </select>
+                    </div>
+
+                    <!-- Entrada de cantidad -->
+                    <div class="quantity-input mb-3">
+                        <label for="quantity">Cantidad:</label>
+                        <input type="number" id="quantity" name="quantity" min="1" max="10" class="form-control">
+                    </div>
+
+                    <!-- Información "En stock" -->
+                    <div class="in-stock mb-3">
+                        <p>En stock</p>
+                    </div>
+
+                    <div class="button">
+                        <!-- Botón "Añadir al carrito" -->
+                        <button type="button" class="btn btn-primary btn-lg btn-block" data-bs-toggle="modal" data-bs-target="#myModal">Comprar ahora</button>                    
+                    </div>
+
+                    <!-- Modal -->  
+                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Hecho!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Compra realizada con éxito!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 order-1 order-lg-2">
                     <!-- Galería de productos -->
                     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -65,61 +117,10 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-6 d-flex flex-column justify-content-left align-items-left">
-                    <!-- Título del producto -->
-                    <h2>Camiseta</h2>
-
-                    <!-- Descripción del producto -->
-                    <div class="product-description">
-                        <p>Esta es una descripción detallada del producto. Incluye sus características, especificaciones y cualquier otra información relevante.</p>
-                    </div>
-
-                    <!-- Selector de tamaño -->
-                    <div class="size-picker">
-                        <label for="size">Tamaño:</label>
-                        <select id="size" name="size">
-                            <option value="small">Pequeño</option>
-                            <option value="medium">Mediano</option>
-                            <option value="large">Grande</option>
-                        </select>
-                    </div>
-
-                    <!-- Entrada de cantidad -->
-                    <div class="quantity-input">
-                        <label for="quantity">Cantidad:</label>
-                        <input type="number" id="quantity" name="quantity" min="1" max="10">
-                    </div>
-
-                    <!-- Información "En stock" -->
-                    <div class="in-stock" style="color: green;">
-                        <p>En stock</p>
-                    </div>
-
-                    <div class="button">
-                        <!-- Botón "Añadir al carrito" -->
-                        <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#myModal">Comprar ahora</button>                    
-                    </div>
-
-                    <!-- Modal -->  
-                    <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLabel">Hecho!</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    Compra realizada con éxito!
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
             </div>
         </div>
     </header>
+
 
 
 
