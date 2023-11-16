@@ -8,6 +8,8 @@
 }
 
 
+/* MENU*/
+
 .navbar{
     background-color: #F1F1F1 !important; 
     border: 1px solid #262727;
@@ -21,7 +23,7 @@
 
 }
 
-/* Remove border from toggler */
+
 .navbar-toggler {
     border: 0 !important;
 }
@@ -34,7 +36,7 @@
     border: 0 !important;
 }
 
-/* Lines of the Toggler */
+
 .toggler-icon{
     width: 30px;
     height: 3px;
@@ -43,12 +45,12 @@
     transition: all 0.2s;
 }
 
-/* Adds Space between the lines */
+
 .middle-bar{
     margin: 5px auto;
 }
 
-/* State when navbar is opened (START) */
+
 .navbar-toggler .top-bar {
     transform: rotate(45deg);
     transform-origin: 10% 10%;
@@ -63,9 +65,9 @@
     transform: rotate(-45deg);
     transform-origin: 10% 90%;
 }
-/* State when navbar is opened (END) */
 
-/* State when navbar is collapsed (START) */
+
+
 .navbar-toggler.collapsed .top-bar {
     transform: rotate(0);
 }
@@ -78,15 +80,11 @@
 .navbar-toggler.collapsed .bottom-bar {
     transform: rotate(0);
 }
-/* State when navbar is collapsed (END) */
 
-/* Color of Toggler when collapsed */
+
 .navbar-toggler.collapsed .toggler-icon {
     background-color: #262727;
 }
-
-
-
 
 
 header > div > h3 {
@@ -152,7 +150,6 @@ header > div > h3 {
 
 
 .Slogan{
-    height: 200vh;
     background-color: #F1F1F1;
     color: #262727;
 }
