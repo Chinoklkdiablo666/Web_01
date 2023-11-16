@@ -152,6 +152,7 @@ header > div > h3 {
 .Slogan{
     background-color: #F1F1F1;
     color: #262727;
+    height: 210vh;
 }
 
 
@@ -237,7 +238,7 @@ footer{
     }
 
     .Slogan{
-        height: 140vh;
+        height: 145vh;
     }
 
 }
@@ -247,10 +248,6 @@ footer{
     .Slogan > h1{
         font-size: 50px;
 
-    }
-
-    .Slogan{
-        height: 135vh;
     }
 
 }
