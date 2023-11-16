@@ -107,7 +107,6 @@ h2 {
     margin-bottom: 10px; /* Espacio debajo de los selectores */
 }
 
-
 footer{
     background-color: #F1F1F1!important;
     color: #262727 !important; 
@@ -121,6 +120,10 @@ footer .container {
     margin-top: 0;
 }
 
+.footer2{
+    background-color: #262727;
+    color: #F1F1F1;
+}
 
 header .container .row .col-lg-6 {
     flex: 1;
