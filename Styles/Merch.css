@@ -1,23 +1,183 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.navbar{
+    background-color: #F1F1F1 !important; 
+    border: 1px solid #262727;
+    font-family: 'Inter Tight', sans-serif;
+    color: #262727;
+    padding-left: 3% !important;
+    border-right: none;
+    border-left: none;
+    position: sticky;
+
+
+}
+
+
+.navbar-toggler {
+    border: 0 !important;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: #262727;
+    display: block;
+    transition: all 0.2s;
+}
+
+
+.middle-bar{
+    margin: 5px auto;
+}
+
+
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+
+
+.navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+}
+
+.navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+}
+
+
+.navbar-toggler.collapsed .toggler-icon {
+    background-color: #262727;
+}
+
+
+.Slogan{
+    background-color: #F1F1F1;
+    color: #262727;
+}
 
 
 
 
+.Slogan > h1 {
+    font-family: 'Playfair Display', serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 70px;
+    padding-top: 10px;
+    letter-spacing: -2px;
+
+}
+
+
+
+header{
+    background-color: #F1F1F1;
+    border: 1px solid #262727;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 
 
+.Texto1 > h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    letter-spacing: -2px;
+    color: #262727;
+}
+
+
+.merchh{
+    background-color: #262727;
+}
 
 
 
+.TshirtCD{
+    color: #262727;
+
+}
+
+.titulomerch{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+}
+
+.Icono{
+    padding: 1,5%;
+}
+
+.textomerch{
+    border: 1px solid #262727;
+    background-color: #F1F1F1;
+    border-left: none;
+    border-right: none;
+    padding: 2%;
+}
 
 
+footer{
+    background-color: #F1F1F1!important;
+    color: #262727 !important; 
+    border: 0.5px solid #262727 !important;
+    border-left: none !important;
+    border-right: none !important;
+    font-family: 'Inter Tight', sans-serif;
+}
 
+.Coomingsoon{
+    background-color: #F1F1F1;
+    border: 1px solid #262727;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-
-
-
+}
 
 
 @media (max-width: 768px) {
@@ -33,5 +193,67 @@
     footer{
         font-size: 10px;
     }
+
+}
+
+
+@media (max-width: 1200px) {
+    .Texto1 > h1{
+        font-size: 55px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .Texto1 > h1{
+        font-size: 45px;
+    }
+
+    header{
+        height: 60vh;
+    }
+
+    .Coomingsoon{
+        height: 60vh;
+    }
+
+    .textomerch > h2{
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .Texto1 > h1{
+        font-size: 35px;
+    }
+
+    header{
+        height: 50vh;
+    }
+
+    .Coomingsoon{
+        height: 50vh;
+    }
+
+
+
+}
+
+@media (max-width: 500px) {
+    .Texto1 > h1{
+        font-size: 30px;
+    }
+
+    header{
+        height: 40vh;
+    }
+
+    .Coomingsoon{
+        height: 40vh;
+    }
+
+
 
 }
