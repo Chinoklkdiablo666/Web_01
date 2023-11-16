@@ -133,6 +133,10 @@ footer{
     font-family: 'Inter Tight', sans-serif;
 }
 
+.footer2{
+    background-color: #262727;
+    color: #F1F1F1;
+}
 
 @media (max-width: 768px) {
     footer{
