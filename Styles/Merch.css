@@ -131,6 +131,10 @@ header .container .row .col-lg-6 {
     color:green
 }
 
+.out-stock p {
+    color:red
+}
+
 /* Estilos para el botón "Comprar ahora" */
 .btn-primary {
     background-color: transparent; /* Change this to the color you want */
@@ -171,6 +175,6 @@ header .container .row .col-lg-6 {
     footer{
         font-size: 10px;
     }
-
+    
 }
 
