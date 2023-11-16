@@ -162,7 +162,7 @@ header .container .row .col-lg-6 {
     color: white !important;
     box-shadow: none !important; /* Removes the blue outline */
 }
-}
+
 
 @media (max-width: 768px) {
     footer{
