@@ -367,3 +367,13 @@ footer{
 
 
 }
+
+
+@media (max-width: 475px) {
+
+    .Slogan{
+        height: 76vh;
+    }
+
+
+}
