@@ -84,6 +84,7 @@
     background-color: #262727;
 }
 
+/* MENU*/
 
 /* ACORDEÓN*/
 
@@ -122,7 +123,7 @@
     padding: 3px;
 }
 
-
+/* FOOTER*/
 
 footer{
     background-color: #F1F1F1!important;
@@ -137,6 +138,8 @@ footer{
     background-color: #262727;
     color: #F1F1F1;
 }
+/* FOOTER*/
+
 
 @media (max-width: 768px) {
     footer{
