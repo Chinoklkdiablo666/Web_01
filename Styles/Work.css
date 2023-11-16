@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     color: #262727;
@@ -9,8 +9,8 @@
 
 /* MENU*/
 
-.navbar{
-    background-color: #F1F1F1 !important; 
+.navbar {
+    background-color: #F1F1F1 !important;
     border: 1px solid #262727;
     font-family: 'Inter Tight', sans-serif;
     color: #262727;
@@ -36,7 +36,7 @@
 }
 
 
-.toggler-icon{
+.toggler-icon {
     width: 30px;
     height: 3px;
     background-color: #262727;
@@ -45,7 +45,7 @@
 }
 
 
-.middle-bar{
+.middle-bar {
     margin: 5px auto;
 }
 
@@ -108,7 +108,7 @@
     color: #262727 !important;
 }
 
-.accordion-button::after{
+.accordion-button::after {
     color: #262727 !important;
 }
 
@@ -119,30 +119,31 @@
 }
 
 
-.icono{
+.icono {
     padding: 3px;
 }
 
 /* FOOTER*/
 
-footer{
-    background-color: #F1F1F1!important;
-    color: #262727 !important; 
+footer {
+    background-color: #F1F1F1 !important;
+    color: #262727 !important;
     border: 0.5px solid #262727 !important;
     border-left: none !important;
     border-right: none !important;
     font-family: 'Inter Tight', sans-serif;
 }
 
-.footer2{
+.footer2 {
     background-color: #262727;
     color: #F1F1F1;
 }
+
 /* FOOTER*/
 
 
 @media (max-width: 768px) {
-    footer{
+    footer {
         font-size: 12px;
     }
 
@@ -151,9 +152,8 @@ footer{
 
 
 @media (max-width: 500px) {
-    footer{
+    footer {
         font-size: 10px;
     }
 
 }
-

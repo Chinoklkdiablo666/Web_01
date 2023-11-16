@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 
@@ -10,8 +10,8 @@
 
 /* MENU*/
 
-.navbar{
-    background-color: #F1F1F1 !important; 
+.navbar {
+    background-color: #F1F1F1 !important;
     border: 1px solid #262727;
     font-family: 'Inter Tight', sans-serif;
     color: #262727;
@@ -37,7 +37,7 @@
 }
 
 
-.toggler-icon{
+.toggler-icon {
     width: 30px;
     height: 3px;
     background-color: #262727;
@@ -46,7 +46,7 @@
 }
 
 
-.middle-bar{
+.middle-bar {
     margin: 5px auto;
 }
 
@@ -88,24 +88,24 @@
 
 /* MENU*/
 
-header > div > h3 {
+header>div>h3 {
     font-family: 'Inter Tight', sans-serif;
     font-weight: bolder;
 
 }
 
-header > div > div > h2 {
+header>div>div>h2 {
     font-family: 'Playfair Display', serif;
 }
 
-header{
+header {
     letter-spacing: -0.5px;
     height: 100vh;
     background-color: #F1F1F1;
     color: #262727;
 }
 
-header > div > h3 {
+header>div>h3 {
     font-family: 'Inter Tight', sans-serif;
     font-weight: 500;
     padding-top: 10px;
@@ -117,10 +117,10 @@ header > div > h3 {
     justify-content: space-between;
     margin: 0;
     padding: 0;
-  }
+}
 
 
-  .box {
+.box {
     flex: 1;
     border: 1px solid #262727;
     margin: 0;
@@ -131,7 +131,7 @@ header > div > h3 {
 
 }
 
-.box1{
+.box1 {
     font-size: 30px;
     border-left: none;
     border-right: none;
@@ -139,18 +139,18 @@ header > div > h3 {
 
 }
 
-.box2{
+.box2 {
     border-left: none;
     border-right: none;
 }
 
-.img-fluid{
+.img-fluid {
     padding: 60px;
 }
 
 
 
-.Slogan{
+.Slogan {
     background-color: #F1F1F1;
     color: #262727;
     height: 210vh;
@@ -158,7 +158,7 @@ header > div > h3 {
 
 
 
-.Slogan > h1 {
+.Slogan>h1 {
     font-family: 'Playfair Display', serif;
     padding-left: 20%;
     padding-right: 20%;
@@ -168,16 +168,16 @@ header > div > h3 {
 
 }
 
-footer{
-    background-color: #F1F1F1!important;
-    color: #262727 !important; 
+footer {
+    background-color: #F1F1F1 !important;
+    color: #262727 !important;
     border: 0.5px solid #262727 !important;
     border-left: none !important;
     border-right: none !important;
     font-family: 'Inter Tight', sans-serif;
 }
 
-.footer2{
+.footer2 {
     background-color: #262727;
     color: #F1F1F1;
 }
@@ -187,16 +187,16 @@ footer{
 
 
 @media (max-width: 1350px) {
-    header{
+    header {
         font-size: 13px;
         height: 90vh;
     }
 
-    .box1{
+    .box1 {
         font-size: 25px;
     }
 
-    .Slogan{
+    .Slogan {
         height: 180vh;
     }
 
@@ -204,21 +204,21 @@ footer{
 }
 
 @media (max-width: 1200px) {
-    header{
+    header {
         font-size: 11px;
         height: 75vh;
     }
 
-    .box1{
+    .box1 {
         font-size: 23px;
     }
 
-    .Slogan > h1{
+    .Slogan>h1 {
         font-size: 60px;
 
     }
 
-    .Slogan{
+    .Slogan {
         height: 160vh;
     }
 
@@ -226,7 +226,7 @@ footer{
 
 @media (max-width: 1100px) {
 
-    .Slogan{
+    .Slogan {
         height: 150vh;
     }
 
@@ -234,11 +234,11 @@ footer{
 
 @media (max-width: 1050px) {
 
-    header{
+    header {
         height: 65vh;
     }
 
-    .Slogan{
+    .Slogan {
         height: 145vh;
     }
 
@@ -246,7 +246,7 @@ footer{
 
 @media (max-width: 1000px) {
 
-    .Slogan > h1{
+    .Slogan>h1 {
         font-size: 50px;
 
     }
@@ -255,7 +255,7 @@ footer{
 
 @media (max-width: 900px) {
 
-    .Slogan{
+    .Slogan {
         height: 125vh;
     }
 
@@ -263,7 +263,7 @@ footer{
 
 @media (max-width: 800px) {
 
-    .Slogan{
+    .Slogan {
         height: 120vh;
     }
 
@@ -271,16 +271,16 @@ footer{
 
 
 @media (max-width: 768px) {
-    footer{
+    footer {
         font-size: 12px;
     }
 
-    .Slogan > h1{
+    .Slogan>h1 {
         font-size: 45px;
 
     }
 
-    header{
+    header {
         height: 55vh;
     }
 
@@ -292,36 +292,36 @@ footer{
 
 
 @media (max-width: 768px) {
-    footer{
+    footer {
         font-size: 12px;
     }
 
-    .Slogan > h1{
+    .Slogan>h1 {
         font-size: 45px;
 
     }
 
-    header{
+    header {
         height: 55vh;
     }
 
-    .infoheader{
+    .infoheader {
         flex-direction: column;
 
     }
 
-    .box3{
+    .box3 {
         border-bottom: none;
         border-left: none;
         border-right: none;
     }
 
-    .box1{
+    .box1 {
         display: none;
- 
+
     }
 
-    
+
 
 
 
@@ -331,38 +331,38 @@ footer{
 
 @media (max-width: 600px) {
 
-    .Slogan > h1{
+    .Slogan>h1 {
         font-size: 35px;
 
     }
 
-    .Slogan{
+    .Slogan {
         height: 90vh;
     }
 
 
-    
+
 
 }
 
 @media (max-width: 500px) {
-    footer{
+    footer {
         font-size: 10px;
     }
-    
 
-    .Slogan > h1{
+
+    .Slogan>h1 {
         font-size: 30px;
         padding-left: 15%;
         padding-right: 15%;
 
     }
 
-    header{
+    header {
         height: 50vh;
     }
 
-    .Slogan{
+    .Slogan {
         height: 70vh;
     }
 
@@ -372,7 +372,7 @@ footer{
 
 @media (max-width: 475px) {
 
-    .Slogan{
+    .Slogan {
         height: 76vh;
     }
 
